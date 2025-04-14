@@ -1,50 +1,10 @@
-# Welcome to your Expo app 👋
+# PE01:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Input:
+Within the HelloWorld mobile application the user does not need to provide changing data inputs. The source code implements data through React Native Text components where it contains the hard-coded values including name, degree program, and school name. Every execution of the app displays consistent data due to its static content format.
 
-## Get started
+Process:
+The HelloWorld mobile application was developed by utilizing React Native together with Expo as its processing platform. The application combines View components for layout organization with three Text components to present its necessary content. The style application occurs through the implementation of StyleSheet. A yellow color defines the background of the main View in accordance with user specifications. A combination of Flexbox items alignItems and justifyContent positions the content while the application utilizes font sizes with specified margins for clear reading.
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Output:
+The application generates a mobile screen containing yellow-colored text that centers three information lines showing both user data and academic details. The interface follows a clean setup that fulfills all required specifications for users and systems.
