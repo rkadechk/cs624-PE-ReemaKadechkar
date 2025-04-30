@@ -1,0 +1,8 @@
+Input:
+The app accepts user input through a text field where the user can type a new to-do item. The input value is updated in the component's state through the inputChange method. Once the user taps the “Submit” button, the current input is captured, and if it's not empty, it is added to the array of to-dos. Additionally, the app includes a tab bar at the bottom of the screen with three filter options: "All," "Active," and "Complete." The user interacts with this tab bar to filter the displayed tasks.
+
+Process:
+The app maintains the list of todo tasks in the component’s state object. When the user clicks on“Submit” button the addTodo function creates a new todo item with a unique index, a title, and a complete status set to false. The item is added to the todos array in the state using setState, and the new task is logged to the terminal with console.log. The tab bar filter works by updating the filter state, which is then used to determine which subset of tasks to display. The filtering options available are "All" (shows all tasks), "Active" (shows only incomplete tasks), and "Complete" (shows only tasks marked as completed).
+
+Output:
+The application displays the list of todo tasks on the screen, dynamically updating based on the selected tab filter. The tasks are shown according to the filter, whether all, only active, or only completed tasks. Each new todo task added is logged to the terminal, providing real-time updates of the state of the todos array. The list of tasks updates automatically when the filter changes, reflecting the user’s selection.
